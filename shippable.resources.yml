@@ -1,21 +1,21 @@
 resources:
-  - name: box-nginx
+  - name: rrimg
     type: image
-    integration: jatin-docker
+    integration: rDocker
     pointer:
-      sourceName: "library/nginx"
+      sourceName: "riturajcse/rituexm"
       isPull: false
     seed:
       versionName: latest
 
-  - name: box-sn
-    type: image
-    integration: jatin-docker
-    pointer:
-      sourceName: "scriptnull/sample_node"
-      isPull: false
-    seed:
-      versionName: "dc.pipeline.3"
+ # - name: box-sn
+  #  type: image
+   # integration: jatin-docker
+    #pointer:
+     # sourceName: "scriptnull/sample_node"
+      #isPull: false
+    #seed:
+     # versionName: "dc.pipeline.3"
 
   # - name: tri-cluster
   #   type: tripubCluster
@@ -31,12 +31,12 @@ resources:
   #   version:
   #     region: "us-west-2"
 
-  - name: gke-cluster
-    type: gkeCluster
-    integration: jatin-gke
-    pointer:
-      sourceName: "small-cluster"
-      region: "us-east1-d"
+ # - name: gke-cluster
+  #  type: gkeCluster
+    #integration: jatin-gke
+    #pointer:
+     # sourceName: "small-cluster"
+      #region: "us-east1-d"
 
   # - name: ddc-cluster
   #   type: ddcCluster
