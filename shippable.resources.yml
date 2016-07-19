@@ -4,7 +4,7 @@ resources:
     integration: rDocker
     pointer:
       sourceName: "riturajcse/rituexm"
-      isPull: false
+      #isPull: false
     seed:
       versionName: latest
 
