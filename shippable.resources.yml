@@ -1,13 +1,5 @@
 resources:
-  - name: rrimg
-    type: image
-    integration: rDocker
-    pointer:
-      sourceName: "riturajcse/rituexm"
-      #isPull: false
-    seed:
-      versionName: latest
-  - name: rrimg2
+  - name: rrimg-1
     type: image
     integration: rDocker
     pointer:
