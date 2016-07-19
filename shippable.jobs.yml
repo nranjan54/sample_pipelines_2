@@ -2,9 +2,9 @@ jobs:
   - name: jD-1
     type: manifest
     steps:
-      - GET: rrimg
+      - IN: rrimg
       #- GET: trigger-dv-man
-      - TASK: managed
+      #- TASK: managed
 
   # - name: jatin-2
   #   type: manifest
