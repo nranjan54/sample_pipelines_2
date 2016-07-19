@@ -7,7 +7,6 @@ resources:
       #isPull: false
     seed:
       versionName: latest
-      
   - name: rrimg2
     type: image
     integration: rDocker
