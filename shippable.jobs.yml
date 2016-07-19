@@ -3,8 +3,8 @@ jobs:
     type: manifest
     steps:
       - IN: rrimg
-      - IN: rrimg2
-      #- GET: trigger-dv-man
+      #- IN: rrimg2
+      - IN: trigger-dv-man
       - TASK: managed
 
   # - name: jatin-2
