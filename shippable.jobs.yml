@@ -5,7 +5,7 @@ jobs:
       - IN: rrimg
       - OUT: rrimg2
       #- GET: trigger-dv-man
-      #- TASK: managed
+      - TASK: managed
 
   # - name: jatin-2
   #   type: manifest
