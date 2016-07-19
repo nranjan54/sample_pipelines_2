@@ -2,8 +2,8 @@ jobs:
   - name: jD-1
     type: manifest
     steps:
-      - GET: box-nginx
-      - GET: trigger-dv-man
+      - GET: rrimg
+      #- GET: trigger-dv-man
       - TASK: managed
 
   # - name: jatin-2
@@ -29,13 +29,13 @@ jobs:
   #     - GET: box-man-1
   #     - GET: tri-cluster
 
-  - name: gkeDeploy
-    type: gkeDeploy
-    steps:
-      - GET: jD-1
-      - GET: gke-cluster
-      - TASK: managed
-        deployMethod: upgrade
+  #- name: gkeDeploy
+   # type: gkeDeploy
+   # steps:
+    #  - GET: jD-1
+    #  - GET: gke-cluster
+    #  - TASK: managed
+    #    deployMethod: upgrade
 
   # - name: ddc-deploy
   #   type: ddcDeploy
