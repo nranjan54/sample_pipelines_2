@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: rrimg
-      - IN: rrimg2
+      - OUT: rrimg2
       #- GET: trigger-dv-man
       #- TASK: managed
 
