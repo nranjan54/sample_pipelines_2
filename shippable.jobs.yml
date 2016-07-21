@@ -1,6 +1,6 @@
 jobs:
   - name: jD-1
-    type: manifest
+    type: rSyncSteps
     steps:
       - IN: rrimg
       - TASK: managed
