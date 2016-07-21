@@ -16,6 +16,15 @@ resources:
       isPull: true
     seed:
       versionName: latest
+      
+  - name: rrimg3
+    type: image
+    integration: rDocker
+    pointer:
+      sourceName: "riturajcse/rituexm"
+      isPull: true
+    seed:
+      versionName: latest
 
  # - name: box-sn
   #  type: image
