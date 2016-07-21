@@ -3,6 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: rrimg
+      - IN: rrimg
       - OUT: rrimg2
       - TASK: managed
 
