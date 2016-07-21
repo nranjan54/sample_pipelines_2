@@ -4,15 +4,16 @@ resources:
     integration: rDocker
     pointer:
       sourceName: "riturajcse/rituexm"
-      #isPull: false
+      isPull: true
     seed:
       versionName: latest
+      
   - name: rrimg2
     type: image
     integration: rDocker
     pointer:
       sourceName: "riturajcse/rituexm"
-      #isPull: false
+      isPull: true
     seed:
       versionName: latest
 
