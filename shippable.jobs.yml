@@ -4,6 +4,7 @@ jobs:
     steps:
       - IN: rrimg
       - IN: rrimg2
+      - OUT: rrimg3
       - TASK: managed
 
   # - name: jatin-2
