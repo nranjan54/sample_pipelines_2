@@ -1,8 +1,8 @@
 jobs:
-  - name: jD-1
+  - name: jD-shubh
     type: rSyncSteps
     steps:
-      - IN: rrimg
+      - IN: ssimg
       - TASK: managed
 
   # - name: jatin-2
