@@ -1,8 +1,9 @@
 jobs:
   - name: jD-shubh
-    type: rSyncSteps
+    type: manifest
     steps:
       - IN: ssimg
+      - IN: trigger-dv-man
       - TASK: managed
 
   # - name: jatin-2
