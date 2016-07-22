@@ -1,31 +1,13 @@
 resources:
-  - name: rrimg
+  - name: ssimg
     type: image
-    integration: rDocker
+    integration: ShubhDocker
     pointer:
-      sourceName: "riturajcse/rituexm"
+      sourceName: "shubhankit/ubuntu"
       isPull: true
     seed:
       versionName: latest
-      
-  - name: rrimg2
-    type: image
-    integration: rDocker
-    pointer:
-      sourceName: "riturajcse/rituexm"
-      isPull: true
-    seed:
-      versionName: latest
-      
-  - name: rrimg3
-    type: image
-    integration: rDocker
-    pointer:
-      sourceName: "riturajcse/rituexm"
-      isPull: true
-    seed:
-      versionName: latest
-
+ #
  # - name: box-sn
   #  type: image
    # integration: jatin-docker
