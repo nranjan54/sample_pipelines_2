@@ -1,21 +1,21 @@
 resources:
-  - name: ssimg
+  - name: ssdocker
     type: image
-    integration: ShubhDocker
+    integration: docker
     pointer:
-      sourceName: "shubhankit/ubuntu"
+      sourceName: "library/nginx"
       isPull: true
     seed:
       versionName: latest
- #
- # - name: box-sn
-  #  type: image
-   # integration: jatin-docker
-    #pointer:
-     # sourceName: "scriptnull/sample_node"
-      #isPull: false
-    #seed:
-     # versionName: "dc.pipeline.3"
+ 
+  - name: ssdocker2
+    type: image
+    integration: docker
+    pointer:
+      sourceName: "scriptnull/sample_node"
+      isPull: false
+    seed:
+      versionName: "dc.pipeline.3"
 
   # - name: tri-cluster
   #   type: tripubCluster
@@ -38,11 +38,11 @@ resources:
      # sourceName: "small-cluster"
       #region: "us-east1-d"
 
-  # - name: ddc-cluster
-  #   type: ddcCluster
-  #   integration: jatin-ddc
-  #   pointer:
-  #     sourceName: "ddc-cluster"
+   - name: ddc-cluster
+     type: cluster
+     integration: ddc
+     pointer:
+       sourceName: "ddc-cluster"
 
   # - name: dcl-cluster
   #   type: dclCluster
