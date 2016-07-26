@@ -2,7 +2,7 @@ jobs:
   - name: manifestjob1
     type: manifest
     steps:
-      - IN: ssdocker2
+      - IN: ssdocker
       - IN: trigger-dv-man
 
 
