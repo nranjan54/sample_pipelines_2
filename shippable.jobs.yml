@@ -38,7 +38,7 @@ jobs:
     #    deployMethod: upgrade
 
   - name: ddc-deploy
-    type: ddcDeploy
+    type: deploy
     steps:
       - IN: manifestjob1
       - IN: ddc-cluster
