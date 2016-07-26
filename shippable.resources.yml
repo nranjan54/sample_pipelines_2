@@ -16,6 +16,13 @@ resources:
       isPull: false
     seed:
       versionName: "dc.pipeline.3"
+  
+  - name: ddc-cluster
+    type: cluster
+    integration: ddc
+    pointer:
+      sourceName: "ddc-cluster"
+
 
   # - name: tri-cluster
   #   type: tripubCluster
@@ -38,12 +45,7 @@ resources:
      # sourceName: "small-cluster"
       #region: "us-east1-d"
 
-   - name: ddc-cluster
-     type: cluster
-     integration: ddc
-     pointer:
-       sourceName: "ddc-cluster"
-
+  
   # - name: dcl-cluster
   #   type: dclCluster
   #   integration: jatin-dcl
