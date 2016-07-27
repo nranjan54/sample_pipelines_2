@@ -24,11 +24,11 @@ resources:
       sourceName: "ddc-cluster"
 
 
-  # - name: tri-cluster
-  #   type: tripubCluster
-  #   integration: jatin-triton
-  #   version:
-  #     region: "us-east-1"
+  - name: tri-cluster
+    type: cluster
+    integration: shubh-triton
+    version:
+      region: "us-east-2"
 
   # - name: ecs-cluster
   #   type: ecsCluster
