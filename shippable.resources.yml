@@ -27,7 +27,7 @@ resources:
   - name: tri-cluster
     type: cluster
     integration: shubh-triton
-    version:
+    pointer:
       region: "us-east-2"
 
   # - name: ecs-cluster
