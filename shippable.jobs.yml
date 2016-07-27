@@ -41,7 +41,7 @@ jobs:
     type: deploy
     steps:
       - IN: manifestjob1
-      - IN: ddc-cluster
+      - IN: tri-cluster
 
   # - name: dcl-deploy
   #   type: dclDeploy
