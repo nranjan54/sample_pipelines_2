@@ -29,7 +29,12 @@ resources:
     integration: shubh-triton
     pointer:
       region: "us-east-2"
-
+  
+  - name: plv2-dopts1
+    type: dockerOptions
+    version:
+      memory: 128
+      
   # - name: ecs-cluster
   #   type: ecsCluster
   #   integration: jatin-ecs
