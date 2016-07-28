@@ -49,8 +49,8 @@ jobs:
     steps:
       - IN: manifestjob1
       - IN: tri-cluster
-      - TASK: managed
-        deployMethod: upgrade
+      # - TASK: managed
+      #   deployMethod: upgrade
 
   # - name: dcl-deploy
   #   type: dclDeploy
