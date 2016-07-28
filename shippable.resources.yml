@@ -43,7 +43,11 @@ resources:
     pointer:
       sourceName: "small-cluster" #name of the cluster we are deploying.
       region: "us-east1-d"
-
+  
+  - name: scale
+    type: replicas
+    version:
+      count: 5
  # - name: gke-cluster
   #  type: gkeCluster
     #integration: jatin-gke
