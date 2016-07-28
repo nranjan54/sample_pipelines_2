@@ -37,13 +37,12 @@ resources:
       # volumesFrom:
       #   - "plv2-manifest5entrypointdopt_0_0_03c3505a-a99b-46a9-8uu6-7f4d2516aee5"
       
-  # - name: ecs-cluster
-  #   type: ecsCluster
-  #   integration: jatin-ecs
-  #   pointer:
-  #     sourceName: "testCL"
-  #   version:
-  #     region: "us-west-2"
+  - name: gkecluster
+    type: cluster
+    integration: shubh-gce
+    pointer:
+      sourceName: "small-cluster" #name of the cluster we are deploying.
+      region: "us-east1-d"
 
  # - name: gke-cluster
   #  type: gkeCluster
