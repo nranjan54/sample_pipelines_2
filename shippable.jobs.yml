@@ -55,6 +55,7 @@ jobs:
     type: deploy
     steps:
       - IN: manifestjob1
+      - IN: scale
       - IN: gkecluster
   # - name: dcl-deploy
   #   type: dclDeploy
