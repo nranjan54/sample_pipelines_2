@@ -33,21 +33,21 @@ resources:
   - name: plv2-dopts1
     type: dockerOptions
     version:
-      memory: 256
+      memory: 1080
       # volumesFrom:
       #   - "plv2-manifest5entrypointdopt_0_0_03c3505a-a99b-46a9-8uu6-7f4d2516aee5"
       
-  - name: gkecluster
-    type: cluster
-    integration: shubh-gce
-    pointer:
-      sourceName: "small-cluster" #name of the cluster we are deploying.
-      region: "us-east1-d"
+  # - name: gkecluster
+  #   type: cluster
+  #   integration: shubh-gce
+  #   pointer:
+  #     sourceName: "small-cluster" #name of the cluster we are deploying.
+  #     region: "us-east1-d"
   
-  - name: scale
-    type: replicas
-    version:
-      count: 5
+  # - name: scale
+  #   type: replicas
+  #   version:
+  #     count: 5
  # - name: gke-cluster
   #  type: gkeCluster
     #integration: jatin-gke
