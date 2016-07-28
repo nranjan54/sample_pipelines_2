@@ -51,12 +51,12 @@ jobs:
       - IN: tri-cluster
       # - TASK: managed
       #   deployMethod: upgrade
-  - name: gke-deploy
-    type: deploy
-    steps:
-      - IN: manifestjob1
-      - IN: scale
-      - IN: gkecluster
+  # - name: gke-deploy
+  #   type: deploy
+  #   steps:
+  #     - IN: manifestjob1
+  #     - IN: scale
+  #     - IN: gkecluster
   # - name: dcl-deploy
   #   type: dclDeploy
   #   steps:
