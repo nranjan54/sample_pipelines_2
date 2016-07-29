@@ -47,7 +47,7 @@ resources:
   - name: scale
     type: replicas
     version:
-      count: 5
+      count: 2
  # - name: gke-cluster
   #  type: gkeCluster
     #integration: jatin-gke
