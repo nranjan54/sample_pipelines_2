@@ -3,7 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: ssdocker
-      - IN: plv2-dopts1
+      #- IN: plv2-dopts1
       - IN: trigger-dv-man
 
 
