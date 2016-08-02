@@ -3,7 +3,7 @@ resources:
     type: image
     integration: docker
     pointer:
-      sourceName: "nranjan/ubuntu"
+      sourceName: "nranjan/ubuntu2"
       isPull: true
     seed:
       versionName: latest
