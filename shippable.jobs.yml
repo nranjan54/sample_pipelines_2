@@ -44,11 +44,11 @@ jobs:
   #     - IN: manifestjob1
   #     - IN: ddc-cluster
       
-  - name: tri-deploy
-    type: deploy
-    steps:
-      - IN: manifestjob1
-      - IN: tri-cluster
+  # - name: tri-deploy
+  #   type: deploy
+  #   steps:
+  #     - IN: manifestjob1
+  #     - IN: tri-cluster
       # - TASK: managed
       #   deployMethod: upgrade
       
