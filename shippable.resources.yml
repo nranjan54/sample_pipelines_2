@@ -17,18 +17,18 @@ resources:
   #   seed:
   #     versionName: "dc.pipeline.3"
   
-  - name: ddc-cluster
-    type: cluster
-    integration: ddc
-    pointer:
-      sourceName: "ddc-cluster"
+  # - name: ddc-cluster
+  #   type: cluster
+  #   integration: ddc
+  #   pointer:
+  #     sourceName: "ddc-cluster"
 
 
-  - name: tri-cluster
-    type: cluster
-    integration: shubh-triton
-    pointer:
-      region: "us-east-2"
+  # - name: tri-cluster
+  #   type: cluster
+  #   integration: shubh-triton
+  #   pointer:
+  #     region: "us-east-2"
   
   # - name: plv2-dopts1
   #   type: dockerOptions
