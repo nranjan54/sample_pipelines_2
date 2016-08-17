@@ -6,7 +6,7 @@ jobs:
      #- IN: plv2-dopts1
       - IN: trigger-dv-man
       # - IN: trigger-dv-man-2
-      # - IN : trigger-dv-man-1
+      - IN : trigger-dv-man-1
 
 
   # - name: jatin-2
