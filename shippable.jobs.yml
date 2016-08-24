@@ -1,67 +1,67 @@
-# jobs:
-#   - name: manifestjob1
-#     type: manifest
-#     steps:
-#       - IN: ssdocker
-#      #- IN: plv2-dopts1
-#       - IN: trigger-dv-man
-#       # - IN: trigger-dv-man-2
-#       - IN : trigger-dv-man-1
+jobs:
+  - name: manifestjob1
+    type: manifest
+    steps:
+      - IN: ssdocker
+     #- IN: plv2-dopts1
+      - IN: trigger-dv-man
+      # - IN: trigger-dv-man-2
+      - IN : trigger-dv-man-1
 
 
-#   # - name: jatin-2
-#   #   type: manifest
-#   #   steps:
-#   #     - GET: box-sn
-#   #     - GET: trigger-dv-man
+  # - name: jatin-2
+  #   type: manifest
+  #   steps:
+  #     - GET: box-sn
+  #     - GET: trigger-dv-man
 
-#   # - name: ecs-deploy
-#   #   type: ecsDeploy
-#   #   options:
-#   #     deployMethod: blueGreen
-#   #   steps:
-#   #     - GET: jatin-1
-#   #     - GET: jatin-2
-#   #     - GET: ecs-cluster
+  # - name: ecs-deploy
+  #   type: ecsDeploy
+  #   options:
+  #     deployMethod: blueGreen
+  #   steps:
+  #     - GET: jatin-1
+  #     - GET: jatin-2
+  #     - GET: ecs-cluster
 
-#   # - name: tri-deploy
-#   #   type: tripubDeploy
-#   #   options:
-#   #     deployMethod: upgrade
-#   #   steps:
-#   #     - GET: box-man-1
-#   #     - GET: tri-cluster
+  # - name: tri-deploy
+  #   type: tripubDeploy
+  #   options:
+  #     deployMethod: upgrade
+  #   steps:
+  #     - GET: box-man-1
+  #     - GET: tri-cluster
 
-#   #- name: gkeDeploy
-#    # type: gkeDeploy
-#    # steps:
-#     #  - GET: jD-1
-#     #  - GET: gke-cluster
-#     #  - TASK: managed
-#     #    deployMethod: upgrade
+  #- name: gkeDeploy
+   # type: gkeDeploy
+   # steps:
+    #  - GET: jD-1
+    #  - GET: gke-cluster
+    #  - TASK: managed
+    #    deployMethod: upgrade
 
-#   # - name: ddc-deploy
-#   #   type: deploy
-#   #   steps:
-#   #     - IN: manifestjob1
-#   #     - IN: ddc-cluster
+  # - name: ddc-deploy
+  #   type: deploy
+  #   steps:
+  #     - IN: manifestjob1
+  #     - IN: ddc-cluster
       
-#   # - name: tri-deploy
-#   #   type: deploy
-#   #   steps:
-#   #     - IN: manifestjob1
-#   #     - IN: tri-cluster
-#       # - TASK: managed
-#       #   deployMethod: upgrade
+  # - name: tri-deploy
+  #   type: deploy
+  #   steps:
+  #     - IN: manifestjob1
+  #     - IN: tri-cluster
+      # - TASK: managed
+      #   deployMethod: upgrade
       
-#   # - name: gke-deploy
-#   #   type: deploy
-#   #   steps:
-#   #     - IN: manifestjob1
-#   #     - IN: scale
-#   #     - IN: gkecluster
-#   # - name: dcl-deploy
-#   #   type: dclDeploy
-#   #   steps:
-#   #     - GET: box-man-1
-#   #     - GET: dcl-cluster
+  # - name: gke-deploy
+  #   type: deploy
+  #   steps:
+  #     - IN: manifestjob1
+  #     - IN: scale
+  #     - IN: gkecluster
+  # - name: dcl-deploy
+  #   type: dclDeploy
+  #   steps:
+  #     - GET: box-man-1
+  #     - GET: dcl-cluster

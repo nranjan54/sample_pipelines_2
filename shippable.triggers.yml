@@ -1,5 +1,5 @@
-# triggers:
-#   - name: trigger-dv-man
-#     type: trigger
-#     version:
-#       counter: 69
+triggers:
+  - name: trigger-dv-man
+    type: trigger
+    version:
+      counter: 69
